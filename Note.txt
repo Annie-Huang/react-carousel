@@ -1,8 +1,9 @@
 Build a carousel in React js. (Custom component )
 https://www.youtube.com/watch?v=Tdpq-9XYoNM&t=982s
 
+https://create-react-app.dev/docs/adding-a-sass-stylesheet/
 ==================================================================
 
 C:\react>npx create-react-app react-carousel
-
+C:\react\react-carousel>npm i node-sass
 
