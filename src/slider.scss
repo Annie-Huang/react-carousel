@@ -8,6 +8,8 @@
   padding: 0;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  background: black;
 }
 
 .slide {
@@ -16,14 +18,18 @@
   height: 80%;
 
   transition: 0.5s;
+  overflow: hidden;
 }
 
 %btn-style {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 5%;
+  width: 10%;
   height: 80%;
+  background: none;
+  border: none;
+  outline: none;
 }
 
 #goLeft {

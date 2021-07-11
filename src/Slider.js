@@ -1,18 +1,33 @@
 import React, { useState } from 'react';
 import './slider.scss';
+import ImgComp from './ImgComp';
+import i1 from './pics/1.jfif';
+import i2 from './pics/2.jfif';
+import i3 from './pics/3.jfif';
+import i4 from './pics/4.jfif';
+import i5 from './pics/5.jfif';
 
 const Slider = () => {
-  let sliderArr = [1, 2, 3, 4, 5];
+  let sliderArr = [
+    <ImgComp src={i1} />,
+    <ImgComp src={i2} />,
+    <ImgComp src={i3} />,
+    <ImgComp src={i4} />,
+    <ImgComp src={i5} />,
+  ];
 
   const [x, setX] = useState(0);
 
   const goLeft = () => {
     console.log(x);
-    setX(x + 100);
+    // Not sure why left => + and right => -
+    // setX(x + 100);
+    x === 0 ? setX(-100 * (sliderArr.length - 1)) : setX(x + 100);
   };
   const goRight = () => {
     console.log(x);
-    setX(x - 100);
+    // setX(x - 100);
+    x === -100 * (sliderArr.length - 1) ? setX(0) : setX(x - 100);
   };
 
   return (
