@@ -42,10 +42,10 @@ const Slider = () => {
         </div>
       ))}
       <button id='goLeft' onClick={goLeft}>
-        Left
+        <i className='fas fa-chevron-left'></i>
       </button>
       <button id='goRight' onClick={goRight}>
-        Right
+        <i className='fas fa-chevron-right'></i>
       </button>
     </div>
   );

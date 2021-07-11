@@ -2,7 +2,11 @@ Build a carousel in React js. (Custom component )
 https://www.youtube.com/watch?v=Tdpq-9XYoNM&t=982s
 
 https://create-react-app.dev/docs/adding-a-sass-stylesheet/
+
+google search 'free images'
 https://unsplash.com/t/nature
+
+https://fontawesome.com/v5.15/icons/chevron-left?style=solid
 ==================================================================
 
 C:\react>npx create-react-app react-carousel
